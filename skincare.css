@@ -7,8 +7,8 @@
 }
 
 header {
-	background:#1A2238;
-	color: #eaeaea;
+	background:#49290acb;
+	color: rgb(255, 253, 250);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -26,7 +26,7 @@ header {
 	width: 35px;
 	height: 35px;
 	margin-left: 10px;
-    border-radius: 20px;
+    	border-radius: 20px;
 }
 
 .logo-title {
@@ -44,8 +44,8 @@ header {
 	border: none;
 	font-size: 20px;
 	padding: 6px 12px;
-	background: tomato;
-	color: #eaeaea;
+	background: #FF6A3D;
+	color: white;
 	border-radius: 8px;
 	cursor: pointer;
 }
@@ -66,12 +66,12 @@ li a {
 }
 
 li a:hover {
-	color: #FF6A3D;
+	color: tomato;
 	transform: rotate(2deg);
 }
 
 a {
-	color: #eaeaea;
+	color: rgb(255, 253, 250);
 	text-decoration: none;
 }
 
@@ -93,7 +93,7 @@ a {
 .title {
 	font-size: 22px;
 	font-weight: bold;
-    text-align: center;
+   	text-align: center;
 }
 
 .description {
@@ -102,11 +102,29 @@ a {
 	font-weight: bolder;
 }
 
-.img-foto {
-	width: 700px;
-	height: 500px;
-	padding: 10px;
-	max-width: 700px;
+.des{
+	justify-content: center;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 50%;
+	min-height: 300px;
+	max-height: 500px;
+	background: #f7f7f7;
+	color: #222;
+	padding: 70px 0;
+	box-shadow: 2px 5px 5px 1px rgba(0,0,0,0.5);
+}
+.desk{
+	font-size: 18px;
+	font-weight: bolder;
+	margin: 30px;
+}
+
+.desc{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 50px;
 }
 
 .parallax {
@@ -124,8 +142,8 @@ a {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background: #1A2238;
-	color: #eaeaea;
+	background: #49290acb;
+	color: rgb(255, 253, 250);
 	padding: 40px;
 }
 
@@ -172,11 +190,15 @@ a {
 footer {
 	padding: 20px;
 	text-align: center;
-	background: #1A2238;
-	color: #eaeaea;
+	background: #49290acb;
+	color: rgb(255, 253, 250);
 }
 
 @media screen and (max-width: 500px) {
+	.logo-img{
+		width: 30px;
+		height: 30px;
+	}
 	.card {
 		flex-direction: column;
 		gap: 0;
@@ -195,8 +217,14 @@ footer {
 		margin-top: 20px;
 	}
 	
-	.img-foto {
+	.icon{
+		width: 25px;
+		height: 25px;
+	}
+	
+	.des {
 		padding: 0;
+		justify-content: center;
 	}
 	
 	nav {
