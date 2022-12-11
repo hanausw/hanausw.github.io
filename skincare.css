@@ -35,7 +35,7 @@ header {
 }
 
 .logo:hover {
-	color: black;
+	color: tomato;
 	transform: rotate(2deg);
 }
 
